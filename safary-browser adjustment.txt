@@ -1,0 +1,54 @@
+ for css--------------------------------
+
+ @supports (-webkit-overflow-scrolling: touch) {
+	
+   .own-custom-right .search-box{
+
+       position: relative;
+
+       top: 150px!important;
+       z-index: 100;
+       width: 32%;					 
+	
+       left: -69.6%;
+
+     }
+
+ }
+
+
+
+
+if(navigator.vendor != null && navigator.vendor.match(/Apple Computer, Inc./) && navigator.userAgent.match(/iPhone/i) || (navigator.userAgent.match(/iPod/i))) 
+
+    {
+
+        alert("Ipod or Iphone");
+
+    }
+
+else if (navigator.vendor != null && navigator.vendor.match(/Apple Computer, Inc./) && navigator.userAgent.match(/iPad/i))  
+
+    {
+
+        alert("Ipad");
+
+    }
+
+else if (navigator.vendor != null && navigator.vendor.match(/Apple Computer, Inc./) && navigator.userAgent.indexOf('Safari') != -1)
+
+    {
+
+        alert("Safari");
+
+    }
+
+else if (navigator.vendor == null || navigator.vendor != null)
+
+    {
+
+        alert("Not Apple Based Browser");
+
+    }
+
+ 
